@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Computer Science in a website</title>
+    <meta name="description" content="A cool thing made with Glitch" />
+    <link
+      id="favicon"
+      rel="icon"
+      href="https://glitch.com/edit/favicon-app.ico"
+      type="image/x-icon"
+    />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+    <!-- javascript file -->
+    <script src="/client.js" defer></script>
+    <!-- google founts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Concert One"
+      rel="stylesheet"
+    />
+    <!-- bootstrap link -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+   <!-- navagation bar  -->
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#myNavbar"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">ICS3U</a>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="/">Home</a></li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown"
+                  >HTML <span class="caret"></span
+                ></a>
+                <ul class="dropdown-menu">
+                  <li><a href="/htmlGlitch">HTML on Glitch</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown"
+                  >Java Script <span class="caret"></span
+                ></a>
+                <ul class="dropdown-menu">
+                  <li><a href="/vidcodef">VidCode Final Projects</a></li>
+                  <li><a href="/vidcodep">VidCode Projects</a></li>
+                  <li><a href="/htmlwithjs">HTML with JS</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#"
+                  >More <span class="caret"></span
+                ></a>
+                <ul class="dropdown-menu">
+                  <li><a href="/api">API's and If this then that</a></li>
+                   <li><a onclick="Function1()">Self design Project</a></li>
+                  <li><a href="/log">Daily log</a></li>
+                  <li><a href="/aboutMe">About Me</a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right"></ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- website heading -->
+    <div class="jumbotron text-center">
+      <h>HTML projects using glitch for sale</h>
+    </div>
+    <div class="container">
+      <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_viewcart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+    </div>
+    <!-- image gallery -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <!-- inline glitch progect -->
+            <div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
+              <iframe
+                src="https://glitch.com/embed/#!/embed/html-inline-syle?path=README.md&previewSize=100&attributionHidden=true"
+                title="html-inline-syle on Glitch"
+                allow="geolocation; microphone; camera; midi; vr; encrypted-media"
+                style="height: 100%; width: 100%; border: 0;"
+              >
+              </iframe>
+            </div>
+            <div class="caption">
+              <p>Html with inline styling 15$</p>
+              <!--paypale button -->
+              <form
+                target="paypal"
+                action="https://www.paypal.com/cgi-bin/webscr"
+                method="post"
+              >
+                <input type="hidden" name="cmd" value="_s-xclick" />
+                <input
+                  type="hidden"
+                  name="hosted_button_id"
+                  value="MW7TMS4DH3LB8"
+                />
+                <input
+                  type="image"
+                  src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif"
+                  border="0"
+                  name="submit"
+                  alt="PayPal - The safer, easier way to pay online!"
+                />
+                <img
+                  alt=""
+                  border="0"
+                  src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
+                  width="1"
+                  height="1"
+                />
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <!-- glitch webpage-->
+            <div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
+              <iframe
+                src="https://glitch.com/embed/#!/embed/biowith-pic?path=index.html&previewSize=100&attributionHidden=true"
+                title="biowith-pic on Glitch"
+                allow="geolocation; microphone; camera; midi; vr; encrypted-media"
+                style="height: 100%; width: 100%; border: 0;"
+              >
+              </iframe>
+            </div>
+            <div class="caption">
+              <p>external css with id's and classes 15$</p>
+              <!-- paypal button -->
+              <form
+                target="paypal"
+                action="https://www.paypal.com/cgi-bin/webscr"
+                method="post"
+              >
+                <input type="hidden" name="cmd" value="_s-xclick" />
+                <input
+                  type="hidden"
+                  name="hosted_button_id"
+                  value="NP3RPMVU6WW5C"
+                />
+                <input
+                  type="image"
+                  src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif"
+                  border="0"
+                  name="submit"
+                  alt="PayPal - The safer, easier way to pay online!"
+                />
+                <img
+                  alt=""
+                  border="0"
+                  src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
+                  width="1"
+                  height="1"
+                />
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <!-- glitch list -->
+            <div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
+              <iframe
+                src="https://glitch.com/embed/#!/embed/make--list?path=README.md&previewSize=100&attributionHidden=true"
+                title="make--list on Glitch"
+                allow="geolocation; microphone; camera; midi; vr; encrypted-media"
+                style="height: 100%; width: 100%; border: 0;"
+              >
+              </iframe>
+            </div>
+            <div class="caption">
+              <p>A list of things 8$</p>
+              <!-- paypal button-->
+              <form
+                target="paypal"
+                action="https://www.paypal.com/cgi-bin/webscr"
+                method="post"
+              >
+                <input type="hidden" name="cmd" value="_s-xclick" />
+                <input
+                  type="hidden"
+                  name="hosted_button_id"
+                  value="UR3XG77G9KJ6E"
+                />
+                <input
+                  type="image"
+                  src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif"
+                  border="0"
+                  name="submit"
+                  alt="PayPal - The safer, easier way to pay online!"
+                />
+                <img
+                  alt=""
+                  border="0"
+                  src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
+                  width="1"
+                  height="1"
+                />
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- image gallery row 2-->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <!-- inline glitch progect -->
+            <div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
+              <iframe
+                src="https://glitch.com/embed/#!/embed/html-head-style?path=README.md&previewSize=100&attributionHidden=true"
+                title="html-head-style on Glitch"
+                allow="geolocation; microphone; camera; midi; vr; encrypted-media"
+                style="height: 100%; width: 100%; border: 0;"
+              >
+              </iframe>
+            </div>
+            <div class="caption">
+              <p>Html with head styling 8$</p>
+              <!--paypale button -->
+              <form
+                target="paypal"
+                action="https://www.paypal.com/cgi-bin/webscr"
+                method="post"
+              >
+                <input type="hidden" name="cmd" value="_s-xclick" />
+                <input
+                  type="hidden"
+                  name="hosted_button_id"
+                  value="WV8V98BCQEZJ8"
+                />
+                <input
+                  type="image"
+                  src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif"
+                  border="0"
+                  name="submit"
+                  alt="PayPal - The safer, easier way to pay online!"
+                />
+                <img
+                  alt=""
+                  border="0"
+                  src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
+                  width="1"
+                  height="1"
+                />
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <!-- glitch webpage-->
+            <div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
+              <iframe
+                src="https://glitch.com/embed/#!/embed/form-signup?path=README.md&previewSize=100&attributionHidden=true"
+                title="form-signup on Glitch"
+                allow="geolocation; microphone; camera; midi; vr; encrypted-media"
+                style="height: 100%; width: 100%; border: 0;"
+              >
+              </iframe>
+            </div>
+            <div class="caption">
+              <p>Sign up form 18$</p>
+              <!-- paypal button -->
+              <form
+                target="paypal"
+                action="https://www.paypal.com/cgi-bin/webscr"
+                method="post"
+              >
+                <input type="hidden" name="cmd" value="_s-xclick" />
+                <input
+                  type="hidden"
+                  name="hosted_button_id"
+                  value="EEHU9M5V8VAZ4"
+                />
+                <input
+                  type="image"
+                  src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif"
+                  border="0"
+                  name="submit"
+                  alt="PayPal - The safer, easier way to pay online!"
+                />
+                <img
+                  alt=""
+                  border="0"
+                  src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
+                  width="1"
+                  height="1"
+                />
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <!-- slidshow -->
+            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ_0zjL5lCVbEGV1tlvsK7o0ZLIb1Mafr7OBHg4cZ8Cz8ORjCG0n3F6KC22La-5V0ojv_0XzLPBJI9t/embed?start=false&loop=true&delayms=30000"  style="height: 100%; width: 100%; border: 0;" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+            <div class="caption">
+              <p>A funny and informative slideshow 50$</p>
+              <!-- paypal button-->
+              <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="EUCT6HJRSSDLG">
+<table>
+<tr><td><input type="hidden" name="on0" value="Colors">Colors</td></tr><tr><td><select name="os0">
+	<option value="Blue">Blue $100.00 CAD</option>
+	<option value="Red">Red $20.00 CAD</option>
+	<option value="Green">Green $32.00 CAD</option>
+</select> </td></tr>
+</table>
+<input type="hidden" name="currency_code" value="CAD">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Computer Science in a website</title>
+    <meta name="description" content="A cool thing made with Glitch" />
+    <link
+      id="favicon"
+      rel="icon"
+      href="https://glitch.com/edit/favicon-app.ico"
+      type="image/x-icon"
+    />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+    <!-- javascript file -->
+    <script src="/client.js" defer></script>
+    <!-- google founts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Concert One"
+      rel="stylesheet"
+    />
+    <!-- bootstrap link -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <!-- navagation bar  -->
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#myNavbar"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">ICS3U</a>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="/">Home</a></li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown"
+                  >HTML <span class="caret"></span
+                ></a>
+                <ul class="dropdown-menu">
+                  <li><a href="/htmlGlitch">HTML on Glitch</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown"
+                  >Java Script <span class="caret"></span
+                ></a>
+                <ul class="dropdown-menu">
+                  <li><a href="/vidcodef">VidCode Final Projects</a></li>
+                  <li><a href="/vidcodep">VidCode Projects</a></li>
+                  <li><a href="/htmlwithjs">HTML with JS</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#"
+                  >More <span class="caret"></span
+                ></a>
+                <ul class="dropdown-menu">
+                  <li><a href="/api">API's and If this then that</a></li>
+                   <li><a onclick="Function1()">Self design Project</a></li>
+                  <li><a href="/log">Daily log</a></li>
+                  <li><a href="/aboutMe">About Me</a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right"></ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- website heading-->
+    <div class="jumbotron text-center" id="section1">
+      <h1>Biography</h1>
+      <p>It's All About me</p>
+    </div>
+
+    <div id="section2">
+      <div class="row">
+        <div class="col-sm-4">
+          <p2>Hobbies</p2>
+          <p>
+            Emily is very school oriented. She works hard to make sure all of
+            her homework is completed and her marks are good.
+          </p>
+          <div class="container">
+            <button
+              type="button"
+              class="btn btn-info"
+              data-toggle="collapse"
+              data-target="#demo"
+            >
+              More
+            </button>
+              <div class="col-md-4">
+            <div id="demo" class="collapse">
+            <p> In her spare time Emily enjoys doing anything creative like
+              writing, reading and acting. She is a huge fan of a lot of shows
+              and especially a superhero fan. Due to this she is excitedly
+              awaiting the release of the next Marvel movie.</p>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <p2>Home</p2>
+          <p>
+            Emily also has a lot of pets with two cats, and two dogs but her
+            family will be getting a third at the end of september, they also
+            have a leopard gecko.
+          </p>
+          <p>
+            She has one brother who also attends vainer and one sister currently
+            in elementary school.
+          </p>
+        </div>
+        <div class="col-sm-4">
+          <p2>Future</p2>
+          <p>
+            For achievements Emily graduated with honors in grade eight and also
+            received two awards. Emily has been accepted to Waterloo for materials and Nanoscience, however she has applied to many different programs and will make a final decision later.
+          </p>
+          <p></p>
+        </div>
+        <div id="section3"></div>
+      </div>
+      <div class="container">
+        <h2>Image Gallery</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <img
+                src="https://images-na.ssl-images-amazon.com/images/I/41MREj07loL._SX425_.jpg"
+                alt="Lights"
+                style="width:50%"
+              />
+              <div class="caption">
+                <p>Drama masks.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <img
+                src="https://images-na.ssl-images-amazon.com/images/I/71%2BiGHc7f3L._SY355_.jpg"
+                alt="Nature"
+                style="width:50%"
+              />
+
+              <div class="caption">
+                <p>Some really pretty dice.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <img
+                src="https://www.citynews1130.com/wp-content/blogs.dir/sites/9/2015/09/03/textbooks.jpg"
+                alt="Fjords"
+                style="width:50%"
+              />
+              <div class="caption">
+                <p>Books and School.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div id="section4">
+        <p2>
+          Coding Experence
+        </p2>
+        <p>
+          Emily has almost completed a computer science course where she learned a lot about coding. It was an amazing experience that Emily enjoyed.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
