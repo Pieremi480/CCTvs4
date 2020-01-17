@@ -1,0 +1,20 @@
+p {
+  font-family: "Concert One";
+  word-spacing: 2px;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #4d4d4d;
+}
+h {
+  font-family: "Concert One";
+  font-size: 40px;
+  line-height: 2;
+  color: #333333;
+}
+
+p2 {
+   font-family: "Concert One";
+  font-size: 25px;
+  line-height: 2;
+  color: #333333;
+}
